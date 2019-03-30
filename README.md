@@ -1,7 +1,18 @@
 !["Licence: MIT"](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-
 # JTSK to WGS84 converter
+
+!["<nav-spa> logo"](logo.png)
+
+- Converts JTSK (Krovak) to WGS84
+- Based on Tomáš Pecina and Martin Hinner script.
+
+## Installation
+
+Install with your favourite package manager:
+
+- Yarn: `yarn add @arodax/jtsk2wgs84`
+- Npm: `npm -i @arodax/jtsk2wgs84`
 
 ## Licence
 
