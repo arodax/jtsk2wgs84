@@ -1,0 +1,39 @@
+{
+  "name": "@arodax/jtsk2wgs84",
+  "description": "JTSK to WGS84 converter",
+  "version": "1.0.0",
+  "keywords": [
+    "jtsk",
+    "wgs84"
+  ],
+  "homepage": "https://github.com/arodax/jtsk2wgs84",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arodax/jtsk2wgs84.git"
+  },
+  "bugs": "https://github.com/arodax/jtsk2wgs84/issues",
+  "maintainers": [
+    {
+      "name": "ARODAX a.s.",
+      "email": "info@arodax.com",
+      "web": "www.arodax.com"
+    }
+  ],
+  "authors": {
+    "name": "Daniel Chodusov",
+    "email": "daniel@chodusov.com"
+  },
+  "contributors":  [
+    {
+      "name": "Daniel Chodusov",
+      "email": "daniel@chodusov.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --progress --hide-modules --mode=development",
+    "watch": "webpack --progress --hide-modules --watch --mode=development",
+    "prod": "webpack --progress --hide-modules --mode=production"
+  }
+}
