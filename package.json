@@ -1,7 +1,7 @@
 {
   "name": "@arodax/jtsk2wgs84",
   "description": "JTSK to WGS84 converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "jtsk",
     "wgs84"

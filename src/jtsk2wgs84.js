@@ -47,7 +47,7 @@ const jtsk2wgs84 = (x, y, h = 200) => {
   let sinB = pom
 
   do {
-    let sinB = pom
+    sinB = pom
     pom = t * Math.exp(e * Math.log((1 + e * sinB) / (1 - e * sinB)))
     pom = (pom - 1) / (pom + 1)
   } while (Math.abs(pom - sinB) > 1e-15)
