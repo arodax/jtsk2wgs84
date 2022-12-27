@@ -64,7 +64,7 @@ const jtsk2wgs84 = (x, y, h = 200) => {
   let dx = 570.69
   let dy = 85.69
   let dz = 462.84
-  let wz = -5.2611 / 3600 * Math.PI / 18
+  let wz = -5.2611 / 3600 * Math.PI / 180
   let wy = -1.58676 / 3600 * Math.PI / 180
   let wx = -4.99821 / 3600 * Math.PI / 180
   let m = 3.543e-6
